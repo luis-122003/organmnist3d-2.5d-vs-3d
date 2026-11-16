@@ -1,0 +1,5 @@
+__pycache__/
+*.zip
+*.npz
+!resultados_*/matrices_confusion.npz
+.ipynb_checkpoints/

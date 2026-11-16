@@ -1,0 +1,12 @@
+clase,soporte,precision,recall,f1
+liver,69,0.972,1.0,0.986
+kidney-right,68,0.984,0.926,0.955
+kidney-left,69,0.939,0.899,0.919
+femur-right,65,0.922,0.908,0.915
+femur-left,65,0.91,0.938,0.924
+bladder,66,0.955,0.97,0.962
+heart,28,1.0,1.0,1.0
+lung-right,21,1.0,1.0,1.0
+lung-left,21,1.0,1.0,1.0
+spleen,69,0.971,0.986,0.978
+pancreas,69,0.958,0.986,0.971
