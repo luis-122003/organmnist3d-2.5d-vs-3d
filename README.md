@@ -26,7 +26,7 @@ Los valores salen de `resultados_64/resultados.csv` y `resultados_28/resultados.
 
 | Carpeta | Qué hay |
 |---|---|
-| `notebooks/` | `OrganMNIST3D_64_Kaggle.ipynb` (corrida 64³) y `OrganMNIST3D_Kaggle.ipynb` (2.5D vs 3D a 28³), más los notebooks ya ejecutados con sus salidas |
+| `notebooks/` | `OrganMNIST3D_64_Kaggle.ipynb` (corrida 64³) y `OrganMNIST3D_Kaggle.ipynb` (2.5D vs 3D a 28³), los notebooks ya ejecutados con sus salidas (`*_ejecutado*.ipynb`) y `Clasificar_volumen_OrganMNIST3D.ipynb`, que carga `modelo_seed0.pt` y clasifica cualquier volumen de prueba mostrando las 11 probabilidades (corre en CPU) |
 | `codigo/` | `organmnist3d_64.py` (ResNet 3D a 64³), `organmnist3d_completo.py` (2.5D vs 3D a 28³) y `figuras_articulo.py` (Figuras 4 y 5 del informe) |
 | `resultados_64/` | Métricas por semilla y por clase, historiales, matrices de confusión, figuras, log, entorno y los pesos `modelo_seed{0,1,2}.pt` |
 | `resultados_28/` | Lo mismo para la comparación a 28³ (sin pesos: ese script no los guarda) |
